@@ -1,150 +1,147 @@
-# 📸 Dlog
+# 📸 DLog — Daily × Vlog
 
-> **Dlog – Share your moments.**
+<p align="center">
+  <b>Share your moments. Save your memories.</b>
+</p>
 
-Dlog là một ứng dụng di động cho phép người dùng **chia sẻ những khoảnh khắc bằng hình ảnh**, tương tác với cộng đồng và quản lý trang cá nhân.
+<p align="center">
+  Một ứng dụng mạng xã hội chia sẻ hình ảnh được phát triển trong khuôn khổ đồ án môn
+  <b>Phát triển ứng dụng Mobile</b>.
+</p>
 
-Dự án được xây dựng trong khuôn khổ **đồ án Mobile**, với mục tiêu áp dụng kiến thức về phát triển ứng dụng di động, thiết kế giao diện, quản lý dữ liệu và làm việc nhóm bằng Git/GitHub.
-
----
-
-## 📱 Giới thiệu
-
-Trong cuộc sống hằng ngày, người dùng thường lưu giữ rất nhiều khoảnh khắc dưới dạng hình ảnh nhưng không có một không gian đơn giản để chia sẻ và tương tác với những người xung quanh.
-
-**Dlog** hướng đến việc xây dựng một mạng xã hội hình ảnh nhỏ gọn, tập trung vào trải nghiệm:
-
-- 📸 Chia sẻ những khoảnh khắc đáng nhớ
-- ❤️ Tương tác với bài viết
-- 💬 Trao đổi thông qua bình luận
-- 👤 Xây dựng trang cá nhân
-- 🔍 Tìm kiếm người dùng và nội dung
-- 👥 Kết nối với những người dùng khác
-
-> **Dlog = Diary + Log**  
-> Một nơi để lưu lại và chia sẻ những khoảnh khắc trong cuộc sống.
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Firebase-Backend-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+</p>
 
 ---
 
-## 🎯 Mục tiêu dự án
+## 📖 Giới thiệu
 
-Dự án hướng đến các mục tiêu:
+**DLog (Daily × Vlog)** là một ứng dụng mạng xã hội dành cho việc
+**chia sẻ hình ảnh và lưu giữ những khoảnh khắc trong cuộc sống**.
 
-- Xây dựng một ứng dụng chia sẻ hình ảnh trên nền tảng mobile.
-- Thiết kế giao diện đơn giản, hiện đại và dễ sử dụng.
-- Áp dụng kiến trúc và quy trình phát triển ứng dụng mobile thực tế.
-- Làm quen với việc quản lý mã nguồn bằng Git và GitHub.
-- Phân chia công việc và phối hợp phát triển trong nhóm.
-- Áp dụng cơ sở dữ liệu và hệ thống xác thực người dùng.
-- Hoàn thiện một sản phẩm có thể trình diễn trong đồ án.
+Người dùng có thể đăng tải những bức ảnh của mình, viết caption,
+tương tác với bài viết của người khác, theo dõi bạn bè và quản lý
+trang cá nhân.
+
+> 📷 **DLog — Share your moments.**
+
+Ứng dụng được xây dựng nhằm áp dụng các kiến thức về:
+
+- Phát triển ứng dụng Android
+- Thiết kế giao diện Mobile
+- Lập trình hướng đối tượng
+- Cơ sở dữ liệu
+- Xác thực người dùng
+- Firebase
+- Git & GitHub
+- Làm việc nhóm và quản lý source code
 
 ---
 
-## ✨ Tính năng dự kiến
+## ✨ Tính năng
 
 ### 🔐 Tài khoản
 
-- [ ] Đăng ký tài khoản
-- [ ] Đăng nhập
-- [ ] Đăng xuất
-- [ ] Quản lý thông tin cá nhân
-- [ ] Thay đổi ảnh đại diện
-- [ ] Chỉnh sửa hồ sơ
+- Đăng ký tài khoản
+- Đăng nhập
+- Đăng xuất
+- Quên mật khẩu
+- Chỉnh sửa thông tin cá nhân
+- Thay đổi ảnh đại diện
 
 ### 🏠 Trang chủ
 
-- [ ] Hiển thị danh sách bài viết
-- [ ] Xem bài viết mới
-- [ ] Xem thông tin người đăng
-- [ ] Tương tác với bài viết
+- Xem danh sách bài viết
+- Xem bài viết mới
+- Xem thông tin người đăng
+- Like bài viết
+- Bình luận bài viết
+- Lưu bài viết
 
-### 📸 Bài viết
+### 📝 Bài viết
 
-- [ ] Đăng hình ảnh
-- [ ] Thêm caption
-- [ ] Chỉnh sửa bài viết
-- [ ] Xóa bài viết
-- [ ] Xem chi tiết bài viết
-- [ ] Like bài viết
-- [ ] Bình luận
+- Đăng bài viết
+- Upload hình ảnh
+- Thêm caption
+- Chỉnh sửa bài viết
+- Xóa bài viết
+- Xem chi tiết bài viết
+- Like / Unlike
+- Bình luận
 
 ### 👥 Mạng xã hội
 
-- [ ] Theo dõi người dùng
-- [ ] Hủy theo dõi
-- [ ] Xem danh sách người theo dõi
-- [ ] Tìm kiếm người dùng
-- [ ] Xem trang cá nhân người dùng khác
-
-### 🔎 Tìm kiếm
-
-- [ ] Tìm kiếm người dùng
-- [ ] Tìm kiếm bài viết
-- [ ] Tìm kiếm theo từ khóa
+- Theo dõi người dùng
+- Hủy theo dõi
+- Xem danh sách người theo dõi
+- Xem danh sách đang theo dõi
+- Xem trang cá nhân người khác
+- Tìm kiếm người dùng
 
 ### 🔔 Thông báo
 
-- [ ] Thông báo lượt thích
-- [ ] Thông báo bình luận
-- [ ] Thông báo người theo dõi
+Người dùng có thể nhận thông báo khi:
+
+- ❤️ Có người thích bài viết
+- 💬 Có người bình luận
+- 👤 Có người theo dõi
 
 ### 🔖 Tiện ích
 
-- [ ] Lưu bài viết yêu thích
-- [ ] Quản lý bài viết đã lưu
-- [ ] Xóa bài viết khỏi danh sách lưu
-
-> **Lưu ý:** Các tính năng trên là định hướng ban đầu và có thể được điều chỉnh trong quá trình phát triển dự án.
+- Lưu bài viết / hình ảnh
+- Xem danh sách ảnh đã lưu
 
 ---
 
-## 🛠️ Công nghệ sử dụng
+## 🖼️ Giao diện
 
-Dự kiến dự án sử dụng:
+> Một số màn hình chính của ứng dụng:
 
-| Công nghệ | Mục đích |
-|---|---|
-| **Kotlin** | Ngôn ngữ lập trình |
-| **Android Studio** | Môi trường phát triển |
-| **Jetpack Compose** | Xây dựng giao diện |
-| **Firebase Authentication** | Xác thực người dùng |
-| **Cloud Firestore** | Lưu trữ dữ liệu |
-| **Firebase Storage** | Lưu trữ hình ảnh |
-| **Git** | Quản lý phiên bản |
-| **GitHub** | Quản lý source code và làm việc nhóm |
+### 🔐 Authentication
 
-> Công nghệ có thể được cập nhật khi nhóm hoàn thiện thiết kế kỹ thuật.
+| Login | Register | Forgot Password |
+|:---:|:---:|:---:|
+| *Coming soon* | *Coming soon* | *Coming soon* |
+
+### 🏠 Main
+
+| Home | Search | Post Detail |
+|:---:|:---:|:---:|
+| *Coming soon* | *Coming soon* | *Coming soon* |
+
+### 👤 Profile
+
+| My Profile | Edit Profile | Other Profile |
+|:---:|:---:|:---:|
+| *Coming soon* | *Coming soon* | *Coming soon* |
+
+> 📌 Screenshot sẽ được cập nhật sau khi hoàn thiện giao diện Figma và Android.
 
 ---
 
-## 🏗️ Kiến trúc dự kiến
-
-Dlog hướng đến việc tổ chức ứng dụng theo kiến trúc có khả năng mở rộng và dễ bảo trì.
+## 🧩 Function Diagram
 
 ```text
-┌─────────────────────────────┐
-│          Dlog App           │
-├─────────────────────────────┤
-│                             │
-│       Presentation          │
-│    Jetpack Compose UI       │
-│                             │
-├─────────────────────────────┤
-│                             │
-│       ViewModel / State     │
-│                             │
-├─────────────────────────────┤
-│                             │
-│        Repository           │
-│                             │
-├─────────────────────────────┤
-│                             │
-│           Firebase          │
-│                             │
-│  ┌────────┐ ┌────────────┐  │
-│  │  Auth  │ │ Firestore  │  │
-│  └────────┘ └────────────┘  │
-│                             │
-│       Firebase Storage      │
-│                             │
-└─────────────────────────────┘
+                           ┌─────────────────┐
+                           │      DLog       │
+                           │ Photo Social App│
+                           └────────┬────────┘
+                                    │
+        ┌──────────────┬────────────┼────────────┬──────────────┐
+        │              │            │            │              │
+        ▼              ▼            ▼            ▼              ▼
+   👤 Account       📝 Post      👥 Social     🔍 Search     🔔 Notification
+        │              │            │            │              │
+        ├─ Register    ├─ Create    ├─ Follow    └─ User        ├─ Like
+        ├─ Login       ├─ Edit      ├─ Unfollow     Search       ├─ Comment
+        ├─ Logout      ├─ Delete    ├─ Followers                 └─ Follow
+        └─ Profile     ├─ Like      └─ Following
+                       └─ Comment
+
+                              │
+                              ▼
+                         🔖 Saved Photos
